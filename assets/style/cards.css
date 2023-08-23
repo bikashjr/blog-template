@@ -1,0 +1,132 @@
+#trip{
+    background-color: #F7F8FA;  
+}
+.badge-pill{
+    font-size: 30px;
+}
+
+.trip .card{
+    margin-top: 30px;
+
+}
+.card-text{
+    color: black;
+}
+.trip h6{
+    color: #232323;
+    font-size: 15px;
+    font-weight: 600;
+}
+.star{
+    color: orange;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fa-clock{
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap !important;
+   
+}
+.clock{
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap !important;
+    
+   
+}
+.trip .img-fluid{
+    object-fit: cover;
+}
+
+.card-img-top{
+    object-fit: cover;
+    height: 250px;
+    position: relative;
+}
+
+.trip h6:hover{
+    color: blue;
+}
+.heart{
+    position: absolute;
+    top: 20px;
+    color: white;
+    right: 20px;
+    font-size: 21px;
+}
+.featured-text{
+    background-color: red;
+    position: absolute;
+    top: 14px;
+    padding: 4px 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 5px;
+    left: 11px;
+}
+.featured-num{
+    background-color: #cc0033;
+    position: absolute;
+    top: 49px;
+    padding: 4px 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 5px;
+    left: 11px;
+}
+
+.buller span::before{
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    font-size: 8px;
+    position: absolute;
+    top: 50%;
+    left: 9px;
+    transform: translate(0px, -50%);
+    border-radius: 50%;
+}
+.trip-review{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5E6D77;
+}
+.from-p{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    align-items: center;
+    color: #5E6D77;
+}
+.next-trip-p{
+    text-decoration: line-through;
+    line-height: 16px;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    color: #B1BAC1;
+    font-size: 14px;
+}
+.trip-dollar{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--link-color);
+    position: absolute;
+    left: 48px;
+}
+.trip-p-days{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+color: #5E6D77;
+}

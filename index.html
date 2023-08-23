@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home page - Hotels</title>
+  <!-- css starts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <!-- carousel links starts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- carousel links ends -->
+  <!-- fontawesome icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fontawesome icon link -->
+  <link rel="stylesheet" href="./assets/style/main-layout.css">
+  <link rel="stylesheet" href="./assets/style/cards.css">
+  <link rel="stylesheet" href="./assets/style/discount.css">
+  <link rel="stylesheet" href="./assets/style/footer.css">
+  <link rel="stylesheet" href="./assets/style/hero.css">
+  <link rel="stylesheet" href="./assets/style/homepages.css">
+  <link rel="stylesheet" href="./assets/style/offer.css">
+  <link rel="stylesheet" href="./assets/style/recommended.css">
+  <link rel="stylesheet" href="./assets/style/stories.css">
+  <link rel="stylesheet" href="./assets/style/topdestination.css">
+  <!-- css ends-->
+
+</head>
+
+<body>
+  <!-- <button onclick="topFunction()" id="myBtns" title="Go to top"><i class="fa-solid fa-angle-up"></i></button> -->
+  <!-- top bar starts -->
+  <div class="top-bar">
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img
+                src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/Color-2.svg" alt="logo" class="mx-4"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" id="topbar">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Listing
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" id="tour">
+                    Tour
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <!-- <li class="nav-item dropdown"> -->
+              <div class="col-lg-3">
+                <div class="navbar-ends">
+                  <a class="nav-link dropdown-toggle usd-end" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    USD
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                  <div class="trash-top">
+                    <i class="fa-solid fa-trash "></i>
+                  </div>
+                  <div class="user-top">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                  <!-- </li> -->
+                </div>
+              </div>
+            </div>
+        </nav>
+      </div>
+    </div>
+    <!-- top bar ends -->
+
+    <!-- HomePage starts  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="homepage">
+          <h1 class="text-center homepage-h1">Your world of joy</h1>
+          <p>Find what makes you happy anytime, anywhere</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <form class="forms">
+    <div class="container form-main mx-auto col-md-8 col-10">
+      <form class=" form d-flex align-items-center">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-6 col-lg-3 my-2">
+            <div class="d-flex align-items-center">
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="ms-3">
+                <label for="inputName" class="form-label mb-0">Location:</label>
+                <input type="text" class="form-control no-spacing ps-0" id="inputName"
+                  placeholder="Where are you going?">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 my-2">
+            <div class="d-flex align-items-center">
+              <div>
+                <i class="fa-regular fa-calendar-check"></i>
+              </div>
+              <div class="ms-3">
+                <label for="inputEmail" class="form-label mb-0">Date:</label>
+                <input type="email" class="form-control no-spacing ps-0" id="inputEmail" placeholder="Add Date">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="d-flex align-items-center">
+              <div>
+                <i class="fa-regular fa-calendar-check"></i>
+              </div>
+              <div class="ms-3">
+                <label for="inputEmail" class="form-label mb-0">Check Out:</label>
+                <input type="email" class="form-control no-spacing ps-0" id="inputEmail" placeholder="Add Date">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2 d-flex">
+            <button type="submit" class="btn btn-primary px-4 py-3 rounded-pill  ">
+              Search</button>
+          </div>
+        </div>
+      </form>
+
+
+    </div>
+  </form>
+  <!-- topbar ends  -->
+
+  <!-- Top destination section starts -->
+  <section id="destination">
+    <div class="section-title">
+      <h2 class="section-title  py-5">Top destinations</h2>
+    </div>
+    <div class="container text-center">
+      <div id="owl-demo" class="owl-carousel owl-theme text-center">
+        <div class="item">
+          <div class="circular-card hover-zoom ">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-Jersey-400x400.jpg"
+              class="rounded-circle img-fluid hover-zoom" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New Jersey</a>
+            </h3>
+            <a class="description">23 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-York-City-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New York City</a>
+            </h3>
+            <a class="description">10 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/Los-Angeles-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">Los Angeles</a>
+            </h3>
+            <a class="description">13 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/San-Francisco-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">San Francisco</a>
+            </h3>
+            <a class="description">10 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/Virginia-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">Virginia Beach</a>
+            </h3>
+            <a class="description">2 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/beach-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">California</a>
+            </h3>
+            <a class="description">16 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-Jersey-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New Jersey</a>
+            </h3>
+            <a class="description">23 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-Jersey-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New Jersey</a>
+            </h3>
+            <a class="description">23 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-Jersey-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New Jersey</a>
+            </h3>
+            <a class="description">23 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-Jersey-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New Jersey</a>
+            </h3>
+            <a class="description">23 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-Jersey-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New Jersey</a>
+            </h3>
+            <a class="description">23 tours</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="circular-card">
+
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/New-Jersey-400x400.jpg"
+              class="rounded-circle img-fluid" alt="Top destinations" />
+            <h3 class="my-2">
+              <a href="#" class="destination-h3">New Jersey</a>
+            </h3>
+            <a class="description">23 tours</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Top destination section ends -->
+
+  <section id="next-trip">
+    <div class="container">
+      <h2 class="section-title  my-5 text-center py-5"> Get inspired for your next trip </h2>
+      <div class="row">
+
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/HD-photo-by-Bailey-Alexander-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star mt-"></i>
+              <b>5</b>
+              <a class="trip-review"> <a class="trip-review">(2 Reviews)</a></a>
+              <hr>
+              <p class="next-trip-p">$250,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$225,00</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">2 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/aerial-photography-of-passing-vehicles-on-highway-leading-to-city-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star mt-"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(3 Reviews)</a></a></a>
+              <hr>
+              <p class="next-trip-p">$100,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$100,00</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">4 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/90375_5bd5787b-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <span class="featured-text mx-2">Featured</span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(3 Reviews)</a></a></a>
+              <hr>
+              <p class="next-trip-p">$127,50</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$127,50</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">4 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/unknown-person-standing-near-body-of-water-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(3 Reviews)</a></a></a>
+              <hr>
+              <p class="next-trip-p">$91,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$250,00</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">2 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/red-telephone-booth-near-building-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <span class="featured-text mx-2">Featured</span>
+            <span class="featured-num mx-2 ">-9%</span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(4 Reviews)</a></a></a>
+              <hr>
+              <p class="next-trip-p">$2500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$91,00</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">2 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/image-3-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(3 Reviews)</a></a></a>
+              <hr>
+              <p class="next-trip-p">$250,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$225,00</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">3-5 Hours</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/brown-and-white-concrete-church-on-top-of-mountain-during-daytime-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <span class="featured-text mx-2">Featured</span>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(3 Reviews)</a></a></a>
+              <hr>
+              <p class="next-trip-p">$225,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$100,00</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">5 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/woman-leaning-on-wall-wearing-sunglasses-and-striped-shirt-450x300.jpg"
+              class="card-img-top" alt="trip-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(2 Reviews)</a></a></a>
+              <hr>
+              <p class="next-trip-p">$351,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="from-p ml-2">From</p>
+                <span class="mb-3 mx-2 trip-dollar">$350,00</span>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="fa-regular fa-clock mb-3 mx-2"></i>
+                  <p class="trip-p-days">4 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Recommended place section starts -->
+  <section id="recommended">
+    <div class="container">
+      <h2 class="section-title text-start my-5"> Recommended for You </h2>
+      <div class="row">
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/190695_3f41dcd7-450x300.jpg"
+              class="card-img-top" alt="recommende-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <span class="featured-text mx-2">Featured</span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review"> <a class="trip-review">(2 Reviews)</a></a></a>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="mx-1 my-1 fw-bold ms-1">From $100,00</span>
+                <div class="d-flex justify-content-between align-items-center">
+                  <i class="fa-regular fa-clock clock "></i>
+                  <span class=" mx-2">10 Hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/90375_5bd5787b-450x300.jpg"
+              class="card-img-top" alt="recommende-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <span class="featured-text mx-2">Featured</span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review">(3 Reviews)</a></a>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+
+                <span class="mx-1 my-1 fw-bold ms-1">From $127,50</span>
+                <div class="d-flex justify-content-between align-items-center">
+                  <i class="fa-regular fa-clock clock "></i>
+                  <span class=" mx-2">8 Hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/red-telephone-booth-near-building-450x300.jpg"
+              class="card-img-top" alt="recommende-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <span class="featured-text mx-2">Featured</span>
+            <span class="featured-num mx-2">-9%</span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review">(4 Reviews)</a></a>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="mx-1 my-1 fw-bold ms-1">From $91,00</span>
+                <div class="d-flex justify-content-between align-items-center">
+                  <i class="fa-regular fa-clock clock "></i>
+                  <span class=" mx-2">4 Days</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6">
+          <div class="card">
+            <img
+              src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/brown-and-white-concrete-church-on-top-of-mountain-during-daytime-450x300.jpg"
+              class="card-img-top" alt="recommende-img">
+            <span><i class="fa-regular fa-heart heart"></i></span>
+            <span class="featured-text mx-2">Featured</span>
+            <div class="card-body">
+              <em class="card-text"><i class="fa-solid fa-location-dot mx-1"></i> New York,USA </em>
+              <h6 class="my-2 mx-1 recommended-h6">3-Day Loire Mer Extraordinaire <br> Seine</h6>
+              <i class="fa-solid fa-star mx-1 star"></i>
+              <b>5</b>
+              <a> <a class="trip-review">(5 Reviews)</a></a>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="mx-1 my-1 fw-bold ms-1">From $100,00</span>
+                <div class="d-flex justify-content-between align-items-center">
+                  <i class="fa-regular fa-clock clock "></i>
+                  <span class=" mx-2">5 Hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Recommended place section ends -->
+
+  <!-- stories,tips and guides starts -->
+  <section class="stories py-1">
+    <div class="container">
+      <div class="section-title">
+        <h3 class="text-start py-5">Stories, tips, and guides</h3>
+      </div>
+      <div class="owl-carousel owl-theme stories-carousel" id="owl-demo">
+        <div class="item">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/Rooftop-View-1-768x512.jpg"
+              class="card-img-top" alt="stories-img" />
+            <li class="my-2 mx-2">
+              <a href="" class="card-a ml-3" style="background: rgba(136, 7, 53, 0.06)"> <span class="mx-2 dot"></span>
+                Booking</a>
+            </li>
+            <div class="card-body">
+              <h3>A Seaside Reset in Laguna Beach Neighborhoods</h3>
+              <h6 class="card-text">
+                From the iconic to the unexpected, the city of San…
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/cali_5-768x512.jpg"
+              class="card-img-top" alt="stories-img" />
+            <li class="my-2 mx-2">
+              <a href="" class="card-a ml-3" style="background: rgba(136, 7, 53, 0.06)"> <span class="mx-2 dot"></span>
+                Booking</a>
+            </li>
+            <div class="card-body">
+              <h3>A Seaside Reset in Laguna Beach Neighborhoods</h3>
+              <h6 class="card-text">
+                From the iconic to the unexpected, the city of San…
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/gallary_6-1-870x500-1-600x400.jpg"
+              class="card-img-top" alt="stories-img" />
+            <li class="my-2 mx-2">
+              <a href="" class="card-a ml-3" style="background: rgba(136, 7, 53, 0.06)"> <span class="mx-2 dot"></span>
+                Stays</a>
+            </li>
+            <div class="card-body">
+              <h3>A Seaside Reset in Laguna Beach Neighborhoods</h3>
+              <h6 class="card-text">
+                From the iconic to the unexpected, the city of San…
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card">
+            <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/los_angeles_1.jpg"
+              class="card-img-top" alt="stories-img" />
+            <li class="my-2 mx-2">
+              <a href="" class="card-a ml-3" style="background: rgba(136, 7, 53, 0.06)"> <span class="mx-2 dot"></span>
+                Stays</a>
+            </li>
+            <div class="card-body">
+              <h3>A Seaside Reset in Laguna Beach Neighborhoods</h3>
+              <h6 class="card-text">
+                From the iconic to the unexpected, the city of San…
+              </h6>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- stories,tips and guides ends -->
+
+  <!-- Special offers starts -->
+  <section id="special-offers" class="py-5" >
+    <div class="container offer-border ">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <img src="https://modtel.travelerwp.com/wp-content/uploads/2022/06/Rectangle-7-min-768x517.png" alt="a"
+            class="img-fluid" />
+        </div>
+        <div class="col-md-12 col-lg-6 offers-special" >
+          <div class="side-2">
+          <h2 class="section-title">Get special offers, and <br> more from Traveller</h2>
+          <p class="section-text">Subscribe to see secret deals prices drop the <br> moment you sign up!</p>
+          <div class="special-offer-border my-3 col-lg-8 col-md-4">
+            <input type="text" placeholder="Email Address" class="email-input mx-2">
+            <div class="btn-primary-offer">
+              Subscribe
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Special offers ends  -->
+
+  <!-- Footer starts -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <h4 class="py-3">Contact Us</h4>
+          <ul>
+            <li><a href="">Partnerships</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Get in touch</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6">
+          <h4 class="py-3">Company </h4>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6">
+        <link rel="stylesheet" href="blog1.html">  <h4 class="py-3">Blog</h4>
+          <ul>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Our covid 19</a></li>
+            <li><a href="">Cancellation options</a></li>
+            <li><a href="">Safety information </a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col- footer-social">
+          <h4 class="py-3">Social</h4>
+          <i class="fa-brands fa-facebook mx-2 blue"></i></fa-brands>
+
+          <i class="fa-brands fa-instagram mx-2 lightblue"></i>
+          <i class="fa-brands fa-twitter mx-2 pink"></i>
+          <i class="fa-brands fa-youtube mx-2 red"></i>
+
+        </div>
+        <hr class="my-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="copyright">
+                <i class="fa-regular fa-copyright mx-2"></i>
+                <p class="my-2">Copyright Traveller 2022</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-end">
+                <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/06/Frame-3182.svg" alt="">
+              </div>
+            </div>
+          </div>
+          </div> 
+        </div>
+      </div>
+     
+  </footer>
+  <!-- Footer ends -->
+
+  <!-- Boootstrap link start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!-- Boootstrap link ends -->
+  <!-- Owl carousle slider starts script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+  <script src="scrolltotop.js"></script>
+  <!-- Owl carousle slider ends script  -->
+</body>
+
+</html>

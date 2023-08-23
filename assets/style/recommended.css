@@ -1,0 +1,30 @@
+.recommended-h2{
+    font-family: "DM Sans", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    position: relative;
+    top: -30px;
+}
+.recommended-h6{
+    font-size: 17px;
+    font-weight: 600;
+    color: #232323;
+}
+
+.recommended-h6:hover{
+    color: blue;
+}
+#recommended{
+    background-color:white;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.featured-text::before{
+    display: none;
+}
+.span-image-recommended{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}

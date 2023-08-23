@@ -1,0 +1,65 @@
+.section-title{
+    font-family: "DM Sans", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+}
+.description{
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.destination-h3{
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.destination-h3:hover{
+    color: blue;
+}
+.description:hover{
+    color: blue;
+}
+.grow-on-hover {
+    transition: transform 0.3s ease;
+}
+.grow-on-hover:hover {
+    transform: scale(1.1);
+}
+.grow-on-hover {
+    transition: transform 0.3s ease;
+    object-fit: cover;
+height: 250px;
+position: relative;
+}
+.grow-on-hover:hover {
+    transform: scale(1.1);
+}
+         
+.heart:hover{
+    color: lightcoral;   
+}
+.owl-carousel .owl-item img{
+    display: block;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    color: inherit;
+   background: none!important;
+    padding: 0!important;
+    font: inherit;
+}
+.fa-solid{
+    font-weight:501;
+}

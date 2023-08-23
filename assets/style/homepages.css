@@ -1,0 +1,134 @@
+ /* typgraphy starts */
+h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+/* typgraphy ends */
+
+/* customizing button */
+
+button {
+    border: none !important;
+}
+/* customizing button ends */
+
+/* topbar-css starts */
+.logo{
+     height: 55px; 
+     max-width: 300px; 
+    margin-left: 15px;
+object-fit: cover;
+display: flex;
+flex-wrap: wrap;
+}
+.nav-item{  
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.nav-link{
+    color: #232323;
+}
+
+.dropdown-item{
+    padding: 15px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* topbar-css ends */
+.topbar-right1{
+    display: flex;
+}
+.cardbody h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+.form-main {
+    background-color: white;
+    padding: 13px 32px;
+    border-radius: 45px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    margin-top: -195px;
+    position: relative;
+}
+#topbar{
+    color:#3b71fe;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link:hover{
+color: blue;
+transition: 0.3s;
+}
+.fa-user{
+    color: black;
+    font-size: 16px;
+   
+}
+.fa-trash{
+    color: black;
+    font-size: 16px;
+   
+}
+.navbar-ends{
+    display: flex;
+    justify-content: space-evenly;
+}
+.usd-end{
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: -25px;
+}
+
+/* forms */
+
+.forms input{
+    border: none;
+}
+
+.circular-card{
+    margin: 0 21px;
+}
+.trash-top{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.user-top{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: -25px;
+}

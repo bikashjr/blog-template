@@ -1,0 +1,59 @@
+.homepage {
+  background: url(https://modtour.travelerwp.com/wp-content/uploads/2022/04/Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+#hero {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.homepage-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74px;
+  color: white;
+  position: relative;
+  top: 120px;
+}
+.homepage p {
+  color: #fff;
+  font-family: dm sans, Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  position: relative;
+  top: 130px;
+  text-align: center;
+}
+.herobox {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 170px;
+  padding: 20px 20px;
+  border-radius: 82px;
+  display: flex;
+  width: 65%;
+  height: 18%;
+}
+
+#next-trip {
+  background-color: #f7f8fa;
+}
+
+.dropdown-toggle::after {
+  /* position: relative;
+  top: 1px; */
+  margin-top: -1px;
+}
+
+#tour {
+  position: relative;
+  top: 1px;
+}
