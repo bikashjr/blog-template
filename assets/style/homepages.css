@@ -71,7 +71,7 @@ flex-wrap: wrap;
     margin-right: auto;
 }
 .nav-link:hover{
-color: blue;
+color: #0d6efd;
 transition: 0.3s;
 }
 .fa-user{

@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-banner {
+  background: url(https://modtour.travelerwp.com/wp-content/uploads/2022/04/cali_5.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+  padding-top: 145px;
+  padding-bottom: 35px;
+  border-bottom: 0;
+  height: 37vh;
+}
+.bg-banner::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.blog-head {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: var(--bs-font-sans-serif);
+}
+.banner-content {
+  display: flex;
+}
+.blog {
+  list-style-type: disc;
+  color: white;
+}
+.text-white {
+  display: block;
+}
+.date {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--grey-color, #5e6d77);
+  text-transform: capitalize;
+}
+/* Cards section css starts */
+.card-a {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--body-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  color: rgb(9, 136, 7);
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  position: relative;
+  top: 15px;
+  border: 3px solid rgb(red, green, blue);
+  border-radius: 20px;
+  padding: 4px;
+  width: 30%;
+  margin-left: 10px;
+  padding: 6px 7px;
+}
+.card-a::before {
+  content: "\f111";
+  font-family: "font awesome 5 free";
+  font-size: 8px;
+  position: absolute;
+  top: 50%;
+  left: 9px;
+  transform: translate(0px, -50%);
+}
+.card-title {
+  font-family: dm sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: var(--heading-color, #1a2b48);
+  margin-bottom: 20px;
+  font-family: dm sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: var(--heading-color, #1a2b48);
+  margin-bottom: 20px;
+}
+.card-title:hover {
+  color: #0d6efd;
+}
+.card-img-top {
+  height: 35%;
+}
+.card-text {
+  font-family: dm sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--grey-color, #5e6d77);
+}
+.card-body {
+  border: 1px solid white;
+  /* border-radius: 20px; */
+}
+.border-1 {
+  border-radius: 20px;
+}
+.sidebar-right {
+  background: #f7f8fa;
+  border-radius: 20px;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+label {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: var(--heading-color, #1a2b48);
+  width: 100%;
+}
+.search {
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.05) 0px 4px 12px;
+  border-radius: 80px;
+  border: 0px;
+  padding: 18px 6px 18px 30px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.fa-magnifying-glasss {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(59, 113, 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: -50px;
+  position: relative;
+  left: -7px;
+}
+.tag-sidebar {
+  background: rgb(247, 248, 250);
+  margin-bottom: 30px;
+  padding: 30px 20px;
+}
+.btn-light {
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--heading-color, #1a2b48);
+  margin: 3px;
+  padding: 12px 18px;
+  /* display: flex; */
+}
+.img-rounds {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: -26px;
+}
+
+/* Cards section css ends */
