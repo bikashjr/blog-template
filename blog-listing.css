@@ -11,10 +11,10 @@
   background-size: cover;
   background-attachment: scroll;
   position: relative;
-  padding-top: 145px;
+  padding-top: 150px;
   padding-bottom: 35px;
   border-bottom: 0;
-  height: 37vh;
+  height: 39vh;
 }
 .bg-banner::before {
   content: "";
@@ -24,13 +24,15 @@
   left: 0;
   z-index: 1;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(1, 1, 3, 0.3);
 }
 .blog-head {
   font-size: 36px;
   line-height: 46px;
   font-weight: 700;
   font-family: var(--bs-font-sans-serif);
+  position: relative;
+  color: white;
 }
 .banner-content {
   display: flex;
@@ -47,12 +49,12 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: var(--grey-color, #5e6d77);
+  color: var(--grey-color, #546069);
   text-transform: capitalize;
 }
 /* Cards section css starts */
 .card-a {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 26px;
   color: var(--body-color);
   -webkit-font-smoothing: antialiased;
@@ -171,10 +173,10 @@ label {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: var(--heading-color, #1a2b48);
+  color: var(--heading-color, #2a3c5a);
   margin: 3px;
   padding: 12px 18px;
-  /* display: flex; */
+  font-weight: normal;
 }
 .img-rounds {
   border-radius: 50%;
