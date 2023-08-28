@@ -111,20 +111,3 @@ function scrollToTop() {
 scrollToTop();
 
 
-
-/* <div class="container">
-<div class="row">
-  <div class="col-md-6">
-    <div class="copyright">
-      <i class="fa-regular fa-copyright mx-2"></i>
-      <p class="my-2">Copyright Traveller 2022</p>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="d-flex justify-content-end">
-      <img src="https://modtour.travelerwp.com/wp-content/uploads/2022/06/Frame-3182.svg" alt="">
-    </div>
-  </div>
-
-</div>
-</div> */

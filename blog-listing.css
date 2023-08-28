@@ -3,9 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .bg-banner {
-  background: url(https://modtour.travelerwp.com/wp-content/uploads/2022/04/cali_5.jpg);
+  background: url(https://modtour.travelerwp.com/wp-content/uploads/2022/04/cali_5.jpg) rgba(0, 0, 0, 0.3); 
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,9 +13,11 @@
   padding-top: 150px;
   padding-bottom: 35px;
   border-bottom: 0;
-  height: 39vh;
+  height: 37vh;
+  background-blend-mode: multiply;
+  
 }
-.bg-banner::before {
+.bg-banner::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -24,7 +25,10 @@
   left: 0;
   z-index: 1;
   position: absolute;
-  background-color: rgba(1, 1, 3, 0.3);
+}
+::marker {
+  
+  font-size: 12px;
 }
 .blog-head {
   font-size: 36px;
@@ -40,6 +44,8 @@
 .blog {
   list-style-type: disc;
   color: white;
+  font-size: 14px;
+  
 }
 .text-white {
   display: block;
