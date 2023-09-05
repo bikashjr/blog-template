@@ -110,4 +110,5 @@ function scrollToTop() {
 }
 scrollToTop();
 
-
+const search = document.querySelector(".search");
+search.style.outline = "none";

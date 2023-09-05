@@ -1,3 +1,7 @@
+ul {
+  padding: 0 !important;
+  margin: 0;
+}
 .blog-st {
   font-family: sans-serif;
   font-style: normal;
@@ -698,5 +702,6 @@ button.btn.btn-light.mx-2 {
 /* Footer styles ends */
 
 .side-bar {
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
